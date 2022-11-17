@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  <link rel="icon" type="image/x-icon" href="./assets/images/New-Logo.ico">
+  <title>Last-mile</title>  
+
+<link href="./main.3f6952e4.css" rel="stylesheet"></head>
+
+<body class="">
+<div id="site-border-left"></div>
+<div id="site-border-right"></div>
+<div id="site-border-top"></div>
+<div id="site-border-bottom"></div>
+<!-- Add your content of header -->
+<header>
+  <nav class="navbar  navbar-fixed-top navbar-default">
+    <div class="container">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav ">
+          <li><a href="./index.html" title="">01 : Home</a></li>
+          <li><a href="./works.html" title="">02 : Works</a></li>
+          <li><a href="./about.html" title="">03 : About me</a></li>
+          <li><a href="./contact.html" title="">04 : Contact</a></li>
+        </ul>
+
+
+          <ul class="nav navbar-nav navbar-right navbar-small visible-md visible-lg">
+            <li><a href="./PJ_DS.html" title="" >001</a></li>
+            <li><a href="./PJ_drone.html" title=""class="active">002</a></li>
+            <li><a href="./PJ_Ebro.html" title="">003</a></li>
+            <li><a href="./PJ_corvette.html"  title="">004</a></li>
+            <li><a href="./PJ_steampunk.html" title="">005</a></li>
+            <li><a href="./PJ_animation.html" title="" >006</a></li>
+          </ul>
+
+
+      </div> 
+    </div>
+  </nav>
+</header>
+<div class="section-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <img src="./assets/images/PJ_MM_Cover.jpg" class="img-responsive" alt="">
+        <div class="card-container">
+          <div class="text-center">
+            <h1 class="h2">002 : Last-mile family</h1>
+          </div>
+          <p class="text-center">Blender 3D / After Effects / Photoshop</p>
+          <div class="text-center">
+            <h1 class="h2">moDel</h1>
+          </div>
+          <p style="font-size: 14px; margin-top: 30px;">
+            My interaction with Modern Expo contains many cases, one of them is the design for the last mile direction. As part of this project, I was doing <strong>full visual design</strong> under the supervision of lead designer Modrn. The video sequence presents a drone project close to implementation. As part of this project, I was given a technical model of the drone and tasked with <strong>developing a suitable both functionally and visually design solution</strong>. As a final showcase, I created the following video.
+          </p> 
+        </div>
+      </div>
+
+      
+      
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12" id="fix" style="padding: 15px;">
+          </div>
+         
+        </div>
+        <div class="card-container" style="margin: 10em auto 20px;">
+          <div class="text-center">
+            <h1 class="h2">Mebius</h1>
+          </div>
+          <p style="font-size: 14px; margin-top: 30px;">
+            Mebius, a<strong> deeply conceptual solution to the last mile delivery problem</strong>, was developed in a collaboration with the Modrn lead designer for <strong>the Euroshop 2020 exhibition</strong>. As part of this project, the task was to <strong>find a design solution for last mile delivery</strong>, after reviewing many options, we chose the closest concept to the company's products. The main idea was to create a <strong>platform with modular parcel lockers</strong>, which worked as a recharging station for drones. Also, this complex has its own wheeled drones to deliver goods to the doorstep. As a result of this project, a scale physical model was created, which was shown at the exhibition, as well as the video below.
+          </p> 
+        </div>
+        <div class="row">
+          
+          <div class="col-md-12" id="fix2" style="padding: 15px; text-align: right;">
+          </div>
+          
+        </div>
+      </div>
+   </div>
+
+    </div>
+  </div>
+</div>
+
+
+<footer class="footer-container text-center">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <p>© HHENCH</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+     navActivePage();
+  });
+</script>
+
+<script>
+  WindowSize();
+  window.onresize = WindowSize;
+
+  function WindowSize(){
+    document.getElementById('fix').style.height= (document.getElementById('fix').getBoundingClientRect().width*9/16)+"px";
+    document.getElementById('fix').innerHTML=`
+    <video onloadstart="this.volume=0.1" volume="0.2" width="100%" height="${(document.getElementById('fix').getBoundingClientRect().width*9/16)+"px"}" controls>
+              <source src="./assets/images/PJ_Drone/Drones_R1.mp4" type="video/mp4">
+    </video>
+    `;
+    document.getElementById('fix2').style.height= (document.getElementById('fix2').getBoundingClientRect().width*9/16)+"px";
+    document.getElementById('fix2').innerHTML=`
+    <video onloadstart="this.volume=0.12" volume="0.2"; width="100%" height="${(document.getElementById('fix2').getBoundingClientRect().width*9/16)+"px"}" controls>
+              <source src="./assets/images/PJ_Drone/Drones_R2.mp4" type="video/mp4">
+    </video>
+    `;
+  
+     }
+ 
+</script>
+<script type="text/javascript" src="./main.70a66962.js"></script></body>
+
+</html>
